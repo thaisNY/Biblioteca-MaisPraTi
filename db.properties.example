@@ -1,0 +1,8 @@
+# Modelo de configuração da conexão com o PostgreSQL.
+# 1) Copie este arquivo para "db.properties" (na mesma pasta).
+# 2) Troque SUA_SENHA_AQUI pela senha do usuário do seu PostgreSQL.
+# O db.properties está no .gitignore, então a sua senha não vai para o GitHub.
+# O banco "biblioteca" é criado automaticamente pelo MenuBiblioteca se ainda não existir.
+url=jdbc:postgresql://localhost:5432/biblioteca
+usuario=postgres
+senha=SUA_SENHA_AQUI

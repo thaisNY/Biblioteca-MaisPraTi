@@ -1,0 +1,31 @@
+# ---- Compilados do Eclipse / javac ----
+bin/
+bin-test/
+out/
+*.class
+
+# ---- Configuração local com senha do banco (NUNCA versionar) ----
+# Use db.properties.example como modelo.
+db.properties
+*.env
+.env
+
+# ---- Arquivos do Eclipse que são só da máquina de cada um ----
+.metadata/
+.recommenders/
+*.launch
+
+# ---- Logs e temporários ----
+*.log
+*.tmp
+*~
+
+# ---- Sistema operacional ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Outras IDEs ----
+.idea/
+*.iml
+.vscode/
